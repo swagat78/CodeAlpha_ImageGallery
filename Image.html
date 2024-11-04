@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <div class="gallery">
+            <div class="main-image-container">
+                <img src="sc.jpg?height=600&width=800" alt="Main Image" id="mainImage" class="main-image">
+                <div class="overlay"></div>
+                <div class="image-caption" id="imageCaption"></div>
+            </div>
+            <div class="thumbnails" id="thumbnailContainer"></div>
+        </div>
+        <div class="controls">
+            <button id="prevBtn" class="btn" aria-label="Previous image">Previous</button>
+            <button id="nextBtn" class="btn" aria-label="Next image">Next</button>
+        </div>
+    </div>
+    <footer>&copy; 2024 Swagat Nayak. All rights reserved.</footer>
+    <script src="connect.js"></script>
+</body>
+</html>
